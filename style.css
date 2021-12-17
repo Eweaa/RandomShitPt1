@@ -4,8 +4,8 @@
 }
 
 body {
-  background: -webkit-gradient(linear, left top, right top, from(#56CCF2), to(#2F80ED));
-  background: linear-gradient(to right, #56CCF2, #2F80ED);
+  background: -webkit-gradient(linear, left top, right top, from(#000428), to(#004e92));
+  background: linear-gradient(to right,#000428,#004e92)
 }
 
 .main {

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#56CCF2), to(#2F80ED));
+  background: linear-gradient(to right, #56CCF2, #2F80ED);
+}
+
+.main {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main h1 {
+  padding: 20px;
+}
+
+.main input {
+  display: block;
+  padding: 20px;
+  height: 100px;
+  font-size: xx-large;
+}
+
+.main button {
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: transparent;
+  font-size: xx-large;
+}
+
+.main button:hover {
+  cursor: pointer;
+}
+
+.theVideoContainer {
+  display: none;
+  text-align: center;
+}
+
+.theVideoContainer video {
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */

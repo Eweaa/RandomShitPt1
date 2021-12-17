@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right,#56CCF2,#2F80ED);
+}
+
+.main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        padding: 20px;
+
+    }
+    input{
+        display: block;
+        padding: 20px;
+        height: 100px;
+        font-size: xx-large;
+    }
+    button{
+        padding: 20px;
+        color: white;
+        font-weight: bold;
+        background-color: transparent;
+        border: transparent;
+        font-size: xx-large;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.theVideoContainer{
+    display: none;
+    text-align: center;
+    video{
+        width: 80%;
+    }
+}
